@@ -1,0 +1,158 @@
+* {
+    color: #000000;
+    font-size: 20px;
+    font-weight: 500;
+    box-sizing: border-box;
+    background-color: rgb(227, 254, 254);
+    font-family: 'Monteserat', Arial, sans-serif;
+}
+
+header,
+.Projects,
+nav,
+section,
+aside,
+footer,
+h1 {
+    text-align: center;
+    border-radius: 7px;
+    padding: 25px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.08);
+}
+
+header {
+    width: 25%;
+    margin: 25px 25px 25px 25px;
+    display: inline-block;
+    font-size: larger;
+    background-color: azure;
+}
+
+nav {
+    width: calc(75% - 75px);
+    margin: 25px 25px 25px 0px;
+    float: right;
+    background-color: #abe5ff;
+    display: flex;
+}
+
+aside {
+    width: 25%;
+    float: left;
+    min-height: 600px;
+    background-color: #abe5ff;
+}
+
+section {
+    float: left;
+    width: calc(75% - 75px);
+    margin: 0 25px 25px 25px;
+    background-color: #abe5ff;
+}
+
+section header,
+section article,
+section footer {
+    width: 100%;
+    border-radius: 7px;
+    border: 1px solid #e5e5e5;
+    box-shadow: none;
+    margin: 25px 0px 0px 0px;
+    padding: 50px;
+}
+
+footer {
+    width: 96.5%;
+    margin: 25px 25px 0px 25px;
+    clear: both;
+    background-color: azure;
+    text-align: left;
+}
+
+article {
+    background-color: azure;
+    text-align: left;
+}
+
+h1 {
+    width: 25%;
+    margin: 25px 25px 25px 25px;
+    display: inline-block;
+    font-size: larger;
+    background-color: azure;
+}
+
+a {
+    background-color: #abe5ff;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+img {
+    border-radius: 5%;
+}
+
+li, ul {
+    background-color: azure;
+}
+
+.Projects {
+    background-color: azure;
+    padding: 3px;
+    margin: 3px;
+}
+p {
+    border-radius: 7px;
+    margin-bottom: 15px;
+    padding: 5px;
+    background-color: azure;
+}
+
+.Facts {
+    padding: 2px;
+    margin: 4px;
+    text-align: left;
+}
+
+.E-Port {
+    padding-left: 0%;
+}
+
+i {
+    background-color: azure;
+}
+
+.azure {
+    background-color: azure;
+}
+
+.Contacts {
+    width: 95%;
+    float: none;
+    margin-top: 30px;
+}
+
+.Pjs {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+input {
+    background-color: azure;
+    margin: 5px;
+    display: flex;
+}
+
+form {
+    background-color: azure;
+    flex-direction: row;
+}
+
+label {
+    background-color: azure;
+}
+
+textarea {
+    background-color: azure;
+}
