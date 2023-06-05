@@ -140,7 +140,7 @@ i {
 }
 
 input {
-    background-color: rgb(204, 204, 204);
+    background-color: #ffffff);
     margin: 5px;
     display: flex;
 }
