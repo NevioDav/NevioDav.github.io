@@ -3,7 +3,7 @@
     font-size: 20px;
     font-weight: 500;
     box-sizing: border-box;
-    background-color: rgb(227, 254, 254);
+    background-color: rgb(204, 204, 204);
     font-family: 'Monteserat', Arial, sans-serif;
 }
 
@@ -17,7 +17,7 @@ h1 {
     text-align: center;
     border-radius: 7px;
     padding: 25px;
-    box-shadow: 0 5px 15px rgba(0,0,0,.08);
+    box-shadow: 0 10px 15px rgba(0,0,0,.08);
 }
 
 header {
@@ -25,14 +25,14 @@ header {
     margin: 25px 25px 25px 25px;
     display: inline-block;
     font-size: larger;
-    background-color: azure;
+    background-color: rgb(204, 204, 204);
 }
 
 nav {
     width: calc(75% - 75px);
     margin: 25px 25px 25px 0px;
     float: right;
-    background-color: #abe5ff;
+    background-color: #ffffff;
     display: flex;
 }
 
@@ -40,14 +40,14 @@ aside {
     width: 25%;
     float: left;
     min-height: 600px;
-    background-color: #abe5ff;
+    background-color: #ffffff;
 }
 
 section {
     float: left;
     width: calc(75% - 75px);
     margin: 0 25px 25px 25px;
-    background-color: #abe5ff;
+    background-color: #ffffff;
 }
 
 section header,
@@ -65,12 +65,12 @@ footer {
     width: 96.5%;
     margin: 25px 25px 0px 25px;
     clear: both;
-    background-color: azure;
+    background-color: rgb(204, 204, 204);
     text-align: left;
 }
 
 article {
-    background-color: azure;
+    background-color: rgb(204, 204, 204);
     text-align: left;
 }
 
@@ -79,11 +79,11 @@ h1 {
     margin: 25px 25px 25px 25px;
     display: inline-block;
     font-size: larger;
-    background-color: azure;
+    background-color: #ffffff;
 }
 
 a {
-    background-color: #abe5ff;
+    background-color: #ffffff;
     padding-left: 10%;
     padding-right: 10%;
 }
@@ -93,19 +93,20 @@ img {
 }
 
 li, ul {
-    background-color: azure;
+    background-color: rgb(204, 204, 204);
 }
 
 .Projects {
-    background-color: azure;
+    background-color: rgb(204, 204, 204);
     padding: 3px;
     margin: 3px;
+    width: 33%;
 }
 p {
     border-radius: 7px;
     margin-bottom: 15px;
     padding: 5px;
-    background-color: azure;
+    background-color: rgb(204, 204, 204);
 }
 
 .Facts {
@@ -119,11 +120,11 @@ p {
 }
 
 i {
-    background-color: azure;
+    background-color: rgb(204, 204, 204);
 }
 
 .azure {
-    background-color: azure;
+    background-color: rgb(204, 204, 204);
 }
 
 .Contacts {
@@ -139,20 +140,31 @@ i {
 }
 
 input {
-    background-color: azure;
+    background-color: rgb(204, 204, 204);
     margin: 5px;
     display: flex;
 }
 
 form {
-    background-color: azure;
+    background-color: rgb(204, 204, 204);
     flex-direction: row;
 }
 
 label {
-    background-color: azure;
+    background-color: rgb(204, 204, 204);
 }
 
 textarea {
-    background-color: azure;
+    background-color: rgb(204, 204, 204);
+}
+
+a:hover {
+    color: rgb(255, 0, 0);
+}
+
+div {
+    background-color: #6e0000;
+    width: 110%;
+    height: 25px;
+    margin-top: -10px;
 }
