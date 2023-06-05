@@ -4,14 +4,15 @@
       <link rel="stylesheet" href="Style.css">
   </head>
   <body>
+    <div></div>
     <main>
       <h1>
         My Contacts
       </h1>
     <nav>
-      <a href="Home.html" class="Projects">Go back to the Home Page</a>
-      <a href="PlaneShooter.html" class="Projects">A game i made in Secondary School</a>
-      <a href="Projects.html" class="Projects">Take a deeper look into my Projects</a>
+      <a href="Index.html" class="Projects"><img src="home.png" alt="Home" height="40px" width="40px">   Home</a>
+      <a href="./Game/Game.html" class="Projects"><img src="console.png" alt="Game" height="40px" width="40px">   My Game</a>
+      <a href="Projects.html" class="Projects"><img src="project-management.png" alt="Projects" height="40px" width="40px">   My Projects</a>
     </nav>
     
     <section class="Contacts">
@@ -37,7 +38,7 @@
 
         <article>
             <p>Here is a formular to contact me directly:</p>
-            <form method="post">
+            <form action="mailto:nevio.davatz@gmx.ch" method="post" name="ContactForm">
                 <label>Name:</label>
                 <input type="text" name="name" required>
                 <label>E-mail:</label>
@@ -46,7 +47,7 @@
                 <input type="text" name="Subject" required>
                 <label>Message:</label><br>
                 <textarea rows="1" ></textarea> <br><br>
-                <button type="submit">Send</button>
+                <button type="submit" value="submit">submit</button>
             </form>
         </article>
         
