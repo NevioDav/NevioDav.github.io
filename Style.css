@@ -116,7 +116,8 @@ p {
 }
 
 .E-Port {
-    padding-left: 0%;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 i {
@@ -128,7 +129,7 @@ i {
 }
 
 .Contacts {
-    width: 95%;
+    width: calc(100% - 50px);
     float: none;
     margin-top: 30px;
 }
@@ -140,7 +141,7 @@ i {
 }
 
 input {
-    background-color: #ffffff);
+    background-color: rgb(204, 204, 204);
     margin: 5px;
     display: flex;
 }
@@ -162,9 +163,20 @@ a:hover {
     color: rgb(255, 0, 0);
 }
 
-div {
+.header-bar {
     background-color: #6e0000;
-    width: 110%;
     height: 25px;
-    margin-top: -10px;
+}
+
+body {
+    margin: 0;
+}
+
+@media only screen and (max-width: 900px) {
+    aside,
+    section,
+    .Contacts {
+        width: calc(100% - 60px);
+        margin: 30px;
+    }
 }
